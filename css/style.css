@@ -1,0 +1,289 @@
+
+/* start header */
+
+.body{
+    margin: 0;
+    font-family: tahoma,Arial, Helvetica, sans-serif;
+    height: 5000px;
+}
+
+.header {
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+.logo {
+    width: 35%;
+    float: left;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+.header ul {
+    display: inline;
+    list-style:none; 
+}
+
+.header ul li {
+    margin-left: 79px;
+    margin-right: -117px;
+    padding-top:16px;
+    text-align: right;
+    width: 12%;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;s
+
+}
+.header ul li a{
+    color:black;
+    text-decoration: none;
+    
+}
+.header ul li :hover{
+    color:#ef7c28;
+
+}
+/* end header */
+/* start top boxes */
+/* start box one */
+.box-one {
+    float: left;
+    width: 33.33%;}
+.three-boxes .box-one img {
+        width: 100%;
+}
+.first-box {
+    text-align: center;
+    position: absolute;
+    margin-top: -191px;
+    margin-left: -62px;
+}
+.box-link {
+    position: relative;
+    text-align: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+.first-box p {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 122px;
+    text-align: center;
+    font-family: tahoma;
+}
+/* end box one */
+/* start box two */
+.box-two {
+    float: left;
+    width: 33.33%;
+}
+.three-boxes .box-two img {
+    width: 100%;
+}
+.second-box {
+    text-align: -webkit-center;
+    position: absolute;
+    margin-top: -191px;
+    margin-left: -26px;
+}
+.link {
+    position: relative;
+    text-align: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+.second-box p {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 138px;
+    text-align: center;
+    font-family: tahoma;
+}
+/* end box two */
+/* start box three */
+.box-three {
+    float: right;
+    width: 33.33%;
+}
+.three-boxes .box-three img {
+    width: 100%;
+}
+.thrid-box {
+    text-align: -webkit-center;
+    position: absolute;
+    margin-top: -191px;
+    margin-left: -34px;
+}
+.click {
+    position: relative;
+    text-align: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+.thrid-box p {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 122px;
+    text-align: center;
+    font-family: tahoma;
+}
+/* end box three */
+/* start news box */
+
+.news-boxes{
+    width: 1000px;
+    margin:360px auto; 
+
+}
+.news-boxes .news{
+    overflow: hidden;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+/* start news */
+.news {
+    width: 60%;
+    color: black;
+    float: left;
+    margin-right: 2%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd
+}
+.news .news-info .link-one {
+    background: black;
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+.news .news-info .link-two{
+    color: black;
+    text-decoration: none;
+}
+.news .news-info .link-two:hover{
+    color:#ef7c28;
+}
+.news .news-info h2{
+    font-size: 40px
+}
+.news .news-info h2:hover{
+    color:#ef7c28;
+}
+.news-info img{
+   max-width: 100%
+}
+.news-info p{
+    text-align: left;
+    color:#7c7c7c;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.read-more{
+    display: inline-block;
+    padding:10px 20px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    border:2px solid black;
+}
+.read-more:hover{
+    background: white;
+    color: black
+}
+/* end news */
+.under-line::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 15px auto;
+    background-color: black;
+
+}
+.about-me {
+    width: 27%;
+    float: right;
+    margin-top: -2627px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center
+}
+.widget{
+    background-color: #fff;
+    padding:20px;
+
+}
+.about-me img{
+width: 100%
+}
+.about-me p{
+    text-align: left;
+}
+
+.news-letter{
+    width: 30%;
+    height: 266px;
+    background:white;
+    display: inline-block;
+    margin-top: 473px;
+    margin-left: 13px;
+    text-align: center;
+    border:1px solid #ddd;
+}
+
+
+.news-letter h2 :after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 15px auto;
+    background-color: black;
+    
+}
+.news-letter a{
+    display: inline-block;
+    padding: 10px 80px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    border: 2px solid black;
+}
+.news-letter a:hover{
+    background: white;
+    color: black
+}
+.category
+{ 
+    width: 30%;
+    height: 266px;
+    background:white;
+    display: inline-block;
+    margin-top:48px;
+    margin-left: 13px;
+    text-align: center;
+    border:1px solid #ddd;
+
+}
+.category ul li{
+    float: left;
+    color: black;
+    text-transform: none;
+    display: inline;
+    
+}
